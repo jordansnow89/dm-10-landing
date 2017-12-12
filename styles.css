@@ -1,0 +1,142 @@
+body {
+    background-color: #0828CC;
+    padding: 20px;
+}
+
+header {
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background: #0828CC;
+    align-items: center;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 300px;
+    width: 100%;
+    color: white;
+}
+
+.button1 {
+    
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    color: white;
+    border-radius: 100em;
+    border-style: solid;
+    height: 40px;
+    width: 120px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button1:hover {
+    background-color: white;
+    color: #0828CC;
+    border: 1px solid white;
+    
+}
+
+
+.logo {
+    height: 50px;
+    width: 50px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    align-items: center;
+}
+
+.logoText{
+padding: 10px;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    height: 92vh;
+    color: white;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 10px;
+}
+
+.sectionLogo img {
+    height: 100px;
+    width: 100px;
+}
+
+.sectionText {
+    margin: 10px;
+    text-align: center;
+    width: 550px;
+}
+   
+.button2 {
+    margin: 10px;
+    background-color: white;
+    border: none;
+    color: #0828CC;
+    border-radius: 100em;
+    height: 60px;
+    width: 240px;
+    
+}
+
+.button2:hover {
+    background-color: #0828CC;
+    color: white;
+    border: 1px solid white;
+    
+}
+.socialbox {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-end;
+    align-content: stretch;
+    width: 100%;
+
+}
+
+.socialmedia {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	align-content: stretch;
+    width: 80px;
+    height: 223px;
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100em;
+    
+
+}
+
